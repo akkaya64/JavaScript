@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeConversion</title>
+</head>
+<body>
+    <h1>Type Conversetion</h1>
+    <script>
+        const string1 = "50";
+        const string2 = NaN;
+        console.log(string1+string2);// 50NaN
+
+        console.log(typeof NaN) // number
+        console.log(Number(string1) + 15); // 65
+
+        const sayi1 = Number(string1) + 15;
+        console.log(typeof sayi1.toString(), sayi1.toString());
+        console.log(typeof String(sayi1), String(sayi1))
+
+        const sayi2 = +string1 + 15
+        console.log(typeof sayi2, sayi2)
+
+        console.log(Number(string1));
+        const str3 = "    ";
+        console.log(Number(str3))
+        
+        const str4 = 50/0;
+        console.log(typeof str4, str4)
+
+        const s1 = 5;
+        const s2 = -7;
+        const s3 = 50/0;
+        const s4 = "0";
+        const name = "John";
+        console.log(Boolean(s1)); // true
+        console.log(Boolean(s2)); // true
+        console.log(Boolean(s3), s3); // true
+        console.log(Boolean(s4)); // true
+        console.log(Boolean(name)) // true
+
+
+        // falsy values
+        // 0, null, undefined, NaN, "", false
+        console.log(Boolean(0)) // false
+
+    </script>
+</body>
+</html>
