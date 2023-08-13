@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataCasting</title>
+</head>
+<body>
+    <script>
+        let yas="52";
+        console.log(yas, typeof(yas))
+
+        yas=Number(yas)
+        console.log(yas, typeof(yas))
+
+        let age = prompt("yasinizi giriniz")
+        console.log(age, typeof(age))
+
+        age=Number(age)
+        console.log(age, typeof(age))
+
+        let kdv = "20";
+        console.log(kdv, typeof(kdv))
+
+        kdv = parseInt(kdv)
+        console.log(kdv, typeof(kdv))
+
+        // parseFloat() ondalikli sayilari cevirmek icin kullanilir
+
+        let otv = "70ABC";
+        otv = parseInt(otv);
+        console.log(otv, typeof(otv))
+
+        let mtv = 5/0;
+        console.log(mtv)
+
+        let z = 30;
+        console.log(z, typeof(z))
+
+        z=String(z)
+        console.log(z, typeof(z))
+
+        
+        let y = 46;
+        console.log(y, typeof(y))
+
+        y = y.toString();
+        console.log(y, typeof(y))
+
+        let binaryStr = 99;
+        binaryStr = binaryStr.toString(2)
+        console.log(binaryStr)
+
+        
+        let str = 6;
+        str = str.toString(16)
+        console.log(str)
+
+
+    </script>
+</body>
+</html>
