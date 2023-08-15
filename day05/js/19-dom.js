@@ -22,9 +22,11 @@ console.log(h1E1.innerText)
 console.log(h1E1.innerHTML)
 
 h1E1.innerText = "<span>Hello</span>";
-h1E1.innerHTML = '<span style="color:crimson">Hello</span>';
+h1E1.innerHTML = '<span  style="color:crimson; display:none">Hello</span>';
 
-console.log(h1E1)
+console.log(h1E1.innerText)
+console.log(h1E1.innerHTML)
+console.log(h1E1.textContent)
 
 menuItem3.innerText = "Yeni Icerik";
 const menuItem3Text = menuItem3.innerText;
