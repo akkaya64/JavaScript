@@ -1,0 +1,14 @@
+.title{
+    color: rgb(233, 159, 32);
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.bg-primary{
+    background-color: rgb(233, 159, 32);
+}
+
+.text- center {
+    text-align: center;
+}
