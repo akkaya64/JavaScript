@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERNARY PRACTICE</title>
+</head>
+<body>
+    <h1>TERNARY PRACTICE</h1>
+
+    <input 
+    type="number" 
+    oninput="setSalary()" 
+    style="width: 250px;" 
+    placeholder="Please input a salary value"
+    id="salary">
+
+    <br>
+
+    <input 
+    type="radio" 
+    name="status" id="retired" 
+    oninput="setSalary()" 
+    value="retired">
+    <label for="retired">RETIRED</label>
+
+    <input 
+    type="radio" 
+    name="status" 
+    id="employee" 
+    oninput="setSalary()" 
+    value="employee">
+    <label for="employee">EMPLOYEE</label>
+
+    <p id="result"></p>
+
+    <script src="./js/31-ternary-practice.js"></script>
+</body>
+</html>
