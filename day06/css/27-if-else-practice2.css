@@ -1,0 +1,38 @@
+.toggle-btn {
+    background-color: rgba(0, 0, 139, 0.529);
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.toggle-btn:hover{
+    background-color: darkblue;
+}
+
+.dark {
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+.dark .toggle-btn {
+    background-color:rgba(245, 245, 245, 0.763);
+    color: darkblue;
+}
+
+.dark .toggle-btn:hover {
+    background-color:rgb(245, 245, 245);
+    color: darkblue;
+}
+
