@@ -1,0 +1,50 @@
+body {
+  background-color: darkcyan;
+}
+div.container {
+    display: flex;
+}
+ .salary{
+  width: 270px;
+  border: 2px solid darkolivegreen;
+  background-color: transparent;
+  color: rgba(189, 183, 107, 0.727);
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+input[type="number"].salary::-webkit-inner-spin-button,
+input[type="number"].salary::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input[type="number"].salary {
+    -moz-appearance: textfield; /* Firefox için */
+}
+
+#salary:focus {
+    outline: none;
+}
+
+#calculate {
+    margin-left: 3px;
+    display: flex;
+    width: 100px;
+    background-color: rgba(85, 107, 47, 0.752);
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 3px;
+    color: rgba(189, 183, 107, 0.698);
+    font-size: 20px;
+}
+
+#calculate:hover {
+    background-color: darkolivegreen;
+}
