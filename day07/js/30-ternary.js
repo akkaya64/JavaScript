@@ -1,4 +1,4 @@
-let salary = 30000;
+let salary = 3000;
 
 console.log(salary > 10000 ? "You'll live":"You'll not good");
 
