@@ -11,4 +11,6 @@ function setSalary() {
         salary = status === "retired" ? salary * 0.9 : salary*0.95;
         resultE1.innerText = `Salary calculated £${salary.toFixed(2)}`
     }
+
+    resultE1.value = "";
 }
