@@ -1,23 +1,20 @@
-// DOM Elementleri
-
-// const yukseklikEl = document.querySelector("#yukseklik");
-// const genislikEl = document.querySelector("#genislik");
+const heightEl  = document.querySelector("#number1");
+const widthEl = document.querySelector("#number2");
 const resultEl = document.querySelector("#result");
 
-function alanHesapla() {
-    const yukseklik = undefined;
-    const genislik = 1000;
+function calculateArea () {
 
-    // nullish coalescing
-    const result = (yukseklik ?? 100) * (genislik ?? 100);
+    const height = undefined;
+    const width = 200;
+    const result = (height ?? 100)*(width ?? 100);
+    console.log(result)
+    resultEl.innerText = `RESULT: ${result}`
 
-    // if (yukseklik === null || yukseklik === undefined) {
+     // if (yukseklik === null || yukseklik === undefined) {
     //     yukseklik = 100;
     // }
     // if (genislik === null || genislik === undefined) {
     //     genislik = 100;
     // }
     // const result = yukseklik * genislik;
-
-    resultEl.innerText = `SONUC: ${result}`
-};
+}
