@@ -1,7 +1,9 @@
-for (let i = 0; i < 10; i++) {
-    console.log(i);
+for (let i = 0; i < 10; i++){
+console.log(i)
 }
+
 console.log("AYRAC")
+
 for (let i = 0; i < 10; i++) {
     console.log(i + 1);
 }
@@ -45,7 +47,7 @@ for (let i = 0; i < 10;) {
 
 console.log("AYRAC ALTERNATIF 6")
 
-for (let i = 0; i < 10;) {
-    console.log(`${++i}. kisinin adini giriniz`)
+for (let i = 0; i < 10;){
+console.log(`${i++}. kisinin adini giriniz`)
 }
 
